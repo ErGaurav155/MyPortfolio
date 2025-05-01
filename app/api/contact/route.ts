@@ -27,11 +27,8 @@ async function sendTelegramMessage(
       chat_id,
     });
     return res.data.ok;
-  } catch (error: any) {
-    console.error(
-      "Error sending Telegram message:",
-      error.response?.data || error.message
-    );
+  } catch (error) {
+    console.error("Error sending Telegram message:", error);
     return false;
   }
 }
@@ -55,9 +52,14 @@ const generateEmailTemplate = (
     </div>
   </div>
 `;
+type EmailPayload = {
+  name: string;
+  email: string;
+  message: string;
+};
 
 // Helper function to send an email via Nodemailer
-async function sendEmail(payload: any, message: string) {
+async function sendEmail(payload: EmailPayload, message: string) {
   const { name, email, message: userMessage } = payload;
 
   const mailOptions = {
@@ -72,8 +74,8 @@ async function sendEmail(payload: any, message: string) {
   try {
     await transporter.sendMail(mailOptions);
     return true;
-  } catch (error: any) {
-    console.error("Error while sending email:", error.message);
+  } catch (error) {
+    console.error("Error while sending email:", error);
     return false;
   }
 }
@@ -121,8 +123,8 @@ export async function POST(request: NextRequest) {
       },
       { status: 500 }
     );
-  } catch (error: any) {
-    console.error("API Error:", error.message);
+  } catch (error) {
+    console.error("API Error:", error);
     return NextResponse.json(
       {
         success: false,
