@@ -8,7 +8,7 @@ import Skills from "@/components/homepage/skills";
 
 export default async function Home() {
   return (
-    <div suppressHydrationWarning>
+    <div className="flex flex-col gap-10">
       <HeroSection />
       <AboutSection />
       <Experience />
