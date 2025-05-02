@@ -27,7 +27,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/helper/animation-lottie.tsx"
+    "components/helper/animation-lottie.jsx",
+    "postcss.config.mjs",
+    "eslint.config.mjs"
   ],
   "exclude": ["node_modules"]
 }
