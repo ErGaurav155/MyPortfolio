@@ -1,8 +1,11 @@
 "use client";
 
 import Lottie from "lottie-react";
+interface AnimationLottieProps {
+  animationPath: object; // or `any`, or a more specific Lottie type if available
+}
 
-const AnimationLottie = ({ animationPath }) => {
+const AnimationLottie = ({ animationPath }: AnimationLottieProps) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,

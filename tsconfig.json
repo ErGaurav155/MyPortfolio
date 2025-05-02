@@ -27,7 +27,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/helper/animation-lottie.jsx"
+    "components/helper/animation-lottie.tsx"
   ],
   "exclude": ["node_modules"]
 }

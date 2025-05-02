@@ -82,7 +82,7 @@ import linux from "@/public/assets/svg/skills/linux.svg";
 import sqlalchemy from "@/public/assets/svg/skills/sqlalchemy.svg";
 import fastapi from "@/public/assets/svg/skills/fastapi.svg";
 
-export const skillsImage = (skill) => {
+export const skillsImage = (skill: string) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
     case "gcp":
