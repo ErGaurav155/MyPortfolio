@@ -1,4 +1,4 @@
-// import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import Footer from "@/components/footer";
 import ScrollToTop from "@/components/helper/scroll-to-top";
@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Abu Said - Software Developer",
+  title: "Portfolio of Gaurav Khaire - Software Developer",
   description:
-    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is the portfolio of Gaurav Khaire. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
-      {/* <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM!} /> */}
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM!} />
     </html>
   );
 }
