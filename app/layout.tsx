@@ -1,4 +1,4 @@
-import { GoogleTagManager } from "@next/third-parties/google";
+// import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import Footer from "@/components/footer";
 import ScrollToTop from "@/components/helper/scroll-to-top";
@@ -15,9 +15,9 @@ export const metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body suppressHydrationWarning className={cn(inter.className)}>
@@ -28,7 +28,7 @@ export default function RootLayout({
         </main>
         <Footer />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM!} />
+      {/* <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM!} /> */}
     </html>
   );
 }
