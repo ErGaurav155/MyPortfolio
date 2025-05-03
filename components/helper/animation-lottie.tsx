@@ -3,9 +3,10 @@ import Lottie from "lottie-react";
 
 interface AnimationLottieProps {
   animationPath: object;
+  width?: string | number;
 }
 
-const AnimationLottie = ({ animationPath }: AnimationLottieProps) => {
+const AnimationLottie = ({ animationPath, width }: AnimationLottieProps) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
