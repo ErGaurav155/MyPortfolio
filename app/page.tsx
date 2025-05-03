@@ -7,6 +7,8 @@
 
 import AboutSection from "@/components/homepage/about/About";
 import ContactSection from "@/components/homepage/contact/Contact";
+import Education from "@/components/homepage/education/Education";
+import Experience from "@/components/homepage/experience/Experience";
 // import Education from "@/components/homepage/education/Education";
 // import ContactSection from "@/components/homepage/contact/Contact";
 // import Education from "@/components/homepage/education/Education";
@@ -21,10 +23,10 @@ export default async function Home() {
     <div className="flex flex-col items-center justify-center gap-10">
       <HeroSection />
       <AboutSection />
-      {/* <Experience /> */}
+      <Experience />
       <Skills />
       <Projects />
-      {/* <Education /> */}
+      <Education />
       <ContactSection />
     </div>
   );
