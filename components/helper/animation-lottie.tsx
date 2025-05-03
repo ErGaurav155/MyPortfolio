@@ -1,5 +1,6 @@
 "use client";
 import Lottie from "lottie-react";
+import { Suspense } from "react";
 
 interface AnimationLottieProps {
   animationPath: object;
@@ -15,7 +16,17 @@ const AnimationLottie = ({ animationPath }: AnimationLottieProps) => {
     },
   };
 
-  return <Lottie {...defaultOptions} />;
+  return (
+    <Suspense
+      fallback={
+        <div className="w-full h-full flex items-center justify-center">
+          Loading...
+        </div>
+      }
+    >
+      <Lottie {...defaultOptions} />
+    </Suspense>
+  );
 };
 
 export default AnimationLottie;
