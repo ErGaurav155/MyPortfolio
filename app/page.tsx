@@ -6,6 +6,7 @@
 // import Skills from "@/components/homepage/skills/Skills";
 
 import AboutSection from "@/components/homepage/about/About";
+import ContactSection from "@/components/homepage/contact/Contact";
 // import Education from "@/components/homepage/education/Education";
 // import ContactSection from "@/components/homepage/contact/Contact";
 // import Education from "@/components/homepage/education/Education";
@@ -23,6 +24,7 @@ export default async function Home() {
       {/* <Experience /> */}
       <Skills />
       <Projects />
+      <ContactSection />
       {/* <Education /> */}
       {/* <Projects />
       <Education />
