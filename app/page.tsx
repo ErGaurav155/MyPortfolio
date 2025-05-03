@@ -6,6 +6,7 @@
 // import Skills from "@/components/homepage/skills/Skills";
 
 import AboutSection from "@/components/homepage/about/About";
+import Experience from "@/components/homepage/experience/Experience";
 import HeroSection from "@/components/homepage/hero-section/HeroSec";
 
 export default async function Home() {
@@ -13,8 +14,8 @@ export default async function Home() {
     <div className="flex flex-col items-center justify-center gap-10">
       <HeroSection />
       <AboutSection />
-      {/* <Experience />
-      <Skills />
+      <Experience />
+      {/* <Skills />
       <Projects />
       <Education />
       <ContactSection /> */}
