@@ -3,16 +3,15 @@ import Lottie from "lottie-react";
 
 interface AnimationLottieProps {
   animationPath: object;
-  width?: string | number;
 }
 
-const AnimationLottie = ({ animationPath, width }: AnimationLottieProps) => {
+const AnimationLottie = ({ animationPath }: AnimationLottieProps) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: animationPath,
     style: {
-      width: width,
+      width: "95%",
     },
   };
 
