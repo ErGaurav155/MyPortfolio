@@ -1,8 +1,17 @@
+// import ContactSection from "@/components/homepage/contact/Contact";
+// import Education from "@/components/homepage/education/Education";
+// import Experience from "@/components/homepage/experience/Experience";
+// import HeroSection from "@/components/homepage/hero-section/HeroSec";
+// import Projects from "@/components/homepage/projects/Projects";
+// import Skills from "@/components/homepage/skills/Skills";
+
+import HeroSection from "@/components/homepage/hero-section/HeroSec";
+
 export default async function Home() {
   return (
     <div className="flex flex-col items-center justify-center gap-10">
-      {/* <HeroSection />
-      <AboutSection />
+      <HeroSection />
+      {/* <AboutSection />
       <Experience />
       <Skills />
       <Projects />
