@@ -11,9 +11,9 @@ export const personalData = {
   facebook: "https://www.facebook.com/gaurav.khaire.184",
   linkedIn: "https://www.linkedin.com/in/gaurav-khaire-305199234/",
   twitter: "https://x.com/Gaurav_155",
-  stackOverflow: "#",
-  leetcode: "#",
-  devUsername: "#",
+  stackOverflow: "/",
+  leetcode: "/",
+  devUsername: "/",
   resume:
-    "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
+    "https://drive.google.com/file/d/1BYzQvNoxC0blwn7LB35hSokFs6K417Nh/view?usp=sharing",
 };

@@ -18,6 +18,10 @@ export const projectsData = [
     role: "Full Stack Developer",
     code: "",
     demo: "",
+    tag: ["AI", "SaaS"],
+    feature:
+      "Built and launched a modern AI agency providing custom AI chatbots,agents, and websites for businesses",
+    link: "https://ainspiretech.com/",
   },
   {
     id: 2,
@@ -37,6 +41,10 @@ export const projectsData = [
     role: "Full Stack Developer",
     code: "",
     demo: "",
+    tag: ["AI", "SaaS"],
+    feature:
+      "Built and launched a modern AI agency providing custom AI chatbots,agents, and websites for businesses",
+    link: "https://ainspiretech.com/",
   },
   {
     id: 3,
@@ -57,6 +65,10 @@ export const projectsData = [
     code: "",
     role: "Full Stack Developer",
     demo: "",
+    tag: ["AI", "SaaS"],
+    feature:
+      "Built and launched a modern AI agency providing custom AI chatbots,agents, and websites for businesses",
+    link: "https://roofing-template-iota.vercel.app/",
   },
   {
     id: 4,
@@ -67,7 +79,11 @@ export const projectsData = [
     tools: ["NextJS", "Material UI", "Redux", "Calendar"],
     code: "",
     demo: "",
+    tag: ["AI", "SaaS"],
+    feature:
+      "Built and launched a modern AI agency providing custom AI chatbots,agents, and websites for businesses",
     role: "Full Stack Developer",
+    link: "https://pathology-pink.vercel.app/",
   },
 ];
 

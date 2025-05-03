@@ -7,13 +7,13 @@ interface projectType {
   id: number;
   name: string;
   description: string;
-  tags: string[];
+  tag: string[];
   code: string;
   demo: string;
-  features: string;
+  feature: string;
 }
 const SingleProject = ({ project }: { project: projectType }) => {
-  const { name, description, tags, code, demo } = project;
+  const { name, description, tag, code, demo } = project;
 
   return (
     <div className="group w-full h-fit flex flex-col items-center justify-center relative cursor-text overflow-hidden px-3 md:px-8 py-[1.4rem] bg-[linear-gradient(90deg,#281e57_0%,#201435_100%)] shadow-2xl rounded-lg border border-[#1a1443]">
@@ -213,7 +213,7 @@ const SingleProject = ({ project }: { project: projectType }) => {
         {description}
       </p>
       <div className="group-hover:translate-x-0 absolute w-[140px] text-[0.8rem] flex justify-center gap-2 flex-col translate-x-full transition-transform duration-[0.5s] delay-[0.3s] p-[0.825rem] rounded-[10px_0_0_10px] right-0 bottom-4 bg-[#0f0b24] text-[#EFF3F4]">
-        {tags.map((tag, id) => (
+        {tag.map((tag, id) => (
           <span className="font-medium break-words text-xs" key={id}>
             {tag}
           </span>
