@@ -11,6 +11,7 @@ import Education from "@/components/homepage/education/Education";
 // import Education from "@/components/homepage/education/Education";
 // import Experience from "@/components/homepage/experience/Experience";
 import HeroSection from "@/components/homepage/hero-section/HeroSec";
+import Projects from "@/components/homepage/projects/Projects";
 // import Projects from "@/components/homepage/projects/Projects";
 import Skills from "@/components/homepage/skills/Skills";
 
@@ -20,7 +21,9 @@ export default async function Home() {
       <HeroSection />
       <AboutSection />
       {/* <Experience /> */}
-      <Skills /> <Education />
+      <Skills />
+      <Projects />
+      {/* <Education /> */}
       {/* <Projects />
       <Education />
       <ContactSection /> */}
