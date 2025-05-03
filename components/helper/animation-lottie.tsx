@@ -1,5 +1,3 @@
-"use client";
-
 import Lottie from "lottie-react";
 interface AnimationLottieProps {
   animationPath: object; // or `any`, or a more specific Lottie type if available

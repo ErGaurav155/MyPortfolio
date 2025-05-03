@@ -24,11 +24,8 @@ export default async function Home() {
       {/* <Experience /> */}
       <Skills />
       <Projects />
-      <ContactSection />
       {/* <Education /> */}
-      {/* <Projects />
-      <Education />
-      <ContactSection /> */}
+      <ContactSection />
     </div>
   );
 }
