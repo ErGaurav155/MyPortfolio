@@ -2,7 +2,7 @@
 import Lottie from "lottie-react";
 
 interface AnimationLottieProps {
-  animationPath: object; // or `any`, or a more specific Lottie type if available
+  animationPath: object;
 }
 
 const AnimationLottie = ({ animationPath }: AnimationLottieProps) => {
