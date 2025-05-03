@@ -9,13 +9,13 @@ import Skills from "@/components/homepage/skills/Skills";
 export default async function Home() {
   return (
     <div className="flex flex-col items-center justify-center gap-10">
-      <HeroSection />
+      {/* <HeroSection />
       <AboutSection />
       <Experience />
       <Skills />
       <Projects />
       <Education />
-      <ContactSection />
+      <ContactSection /> */}
     </div>
   );
 }
