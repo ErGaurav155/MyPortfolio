@@ -6,7 +6,7 @@
 // import Skills from "@/components/homepage/skills/Skills";
 
 import AboutSection from "@/components/homepage/about/About";
-import Education from "@/components/homepage/education/Education";
+// import Education from "@/components/homepage/education/Education";
 // import ContactSection from "@/components/homepage/contact/Contact";
 // import Education from "@/components/homepage/education/Education";
 // import Experience from "@/components/homepage/experience/Experience";
