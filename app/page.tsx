@@ -5,14 +5,15 @@
 // import Projects from "@/components/homepage/projects/Projects";
 // import Skills from "@/components/homepage/skills/Skills";
 
+import AboutSection from "@/components/homepage/about/About";
 import HeroSection from "@/components/homepage/hero-section/HeroSec";
 
 export default async function Home() {
   return (
     <div className="flex flex-col items-center justify-center gap-10">
       <HeroSection />
-      {/* <AboutSection />
-      <Experience />
+      <AboutSection />
+      {/* <Experience />
       <Skills />
       <Projects />
       <Education />
