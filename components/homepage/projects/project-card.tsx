@@ -1,6 +1,5 @@
 import Link from "next/link";
 import * as React from "react";
-import { RiContactsFill } from "react-icons/ri";
 
 interface projectType {
   id: number;
